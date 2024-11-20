@@ -46,7 +46,7 @@
     letter-spacing: 0.2em;
     gap: 1.5rem;
     border-radius: 60px;
-    transition: 700ms ease;
+    transition: 500ms ease;
 }
 .footer_notification:hover{
     .footer_notificationabove{
