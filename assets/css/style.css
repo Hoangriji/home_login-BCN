@@ -14,7 +14,7 @@ body{
     font-family: roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(../img/background.svg), linear-gradient(to right, #EAE9EE, #EAE9EE);
+    background-image: url(../img/background.png), linear-gradient(to right, #EAE9EE, #EAE9EE);
     background-position: center, center;
     background-repeat: repeat, no-repeat;
     background-size: contain, cover;
@@ -68,18 +68,16 @@ body{
     font-weight: 500;
     margin-top: 1rem;
     cursor: pointer;  
-    transition: 0.09s;  
+    transition: border 0.09s ease;  
 }
 .section1_wrapper_left_btn:hover{
     border: 2px solid;
     border-image-source: linear-gradient(0deg, var(--Color-Highlight-Highlight-Stroke), var(--Color-Highlight-Highlight-Stroke)),
     linear-gradient(93.04deg, rgba(255, 255, 255, 0.3) 2.11%, rgba(0, 0, 0, 0.3) 98.82%);
 }
-.section1_wrapper_left_btn.active{
+.section1_wrapper_left_btn.active:hover{
     box-shadow: 10px 10px 8px 0px #00000040 inset, -10px -10px 30px 0px #FFFFFFBF inset;
-    .section1_wrapper_left_btn:hover{
-        border: none;
-    }
+    border: none;
 }
 .section1_wrapper_left_img{
     width: 40%;
@@ -126,7 +124,7 @@ body{
 .section2{
     width: calc(100% - 32px * 2);
     margin: 5rem auto;
-    height: 900px;
+    height: 850px;
 }
 .section2_title{    
     width: 10%;

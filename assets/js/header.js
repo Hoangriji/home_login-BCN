@@ -11,10 +11,24 @@ document.querySelector('header').innerHTML = `
             </div>
             <div class="header_searchbar">
                 <img src="assets/img/iconsearch.png" alt="" class="header_search_img">
-                <input type="text" class="header_searchbar_input" placeholder="Nhập để tìm kiếm nhanh">
+                <input type="text" id="searchbar" class="header_searchbar_input" placeholder="Nhập để tìm kiếm nhanh">
             </div>
         </div>
 `;
 document.querySelector('head').innerHTML += `
     <link rel="stylesheet" href="assets/css/header.css">
 `;
+
+const searchbar = document.getElementById('searchbar');
+
+function search() {
+    if (searchbar.value.trim() !== "") {
+        const searchvalue = this;
+        searchbarvalue.classList.add("focus");
+    }
+    else {
+        searchbarvalue.classList.remove("focus");
+    }
+}
+searchbar.addEventListener('focus', search);
+searchbar.addEventListener('blur', search);
