@@ -82,6 +82,7 @@ body {
     margin-top: 1rem;
     cursor: pointer;
     transition: border 0.09s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section1_wrapper_left_btn:hover {
