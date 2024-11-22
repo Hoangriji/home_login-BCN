@@ -10,7 +10,8 @@
     --Color-Text-Text-Title: #616161;
 }
 body {
-    width: calc(100vw-17px);
+    /* width: calc(100vw-17px); */
+    width: 100%;
     min-width: 1440px;
     font-family: roboto, sans-serif;
     margin: 0;
