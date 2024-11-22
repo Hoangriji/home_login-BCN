@@ -280,33 +280,33 @@ body {
 
 .section4_block {
     width: 65%;
-    height: 40px;
+    height: 11%;
     background: linear-gradient(180deg, #EAE9EE 40%, rgba(235, 234, 239, 0) 100%);
     position: absolute;
 }
 
 .b1 {
-    top: -1rem;
+    top: -1vh;
     left: 17.5%;
 }
 
 .b2 {
     width: 44%;
-    top: 270px;
-    left: -2rem;
+    top: 40vh;
+    left: -2vw;
     transform: rotate(90deg);
-    background: linear-gradient(0deg, #EAE9EE 40%, rgba(235, 234, 239, 0) 100%);
+    background: linear-gradient(0deg, #EAE9EE 40%, rgba(235, 234, 239, 0) 100%);   
 }
 
 .b3 {
     width: 44%;
-    top: 270px;
-    right: -2rem;
+    top: 40vh;
+    right: -2vw;
     transform: rotate(90deg);
 }
 
 .b4 {
-    top: 555px;
+    top: 90%;
     left: 17.5%;
     background: linear-gradient(0deg, #EAE9EE 40%, rgba(235, 234, 239, 0) 100%);
 }
