@@ -10,15 +10,14 @@
     --Color-Text-Text-Title: #616161;
 }
 body {
-    /* width: calc(100vw-17px); */
-    width: 100%;
+    width: calc(100vw-17px);
     min-width: 1440px;
     font-family: roboto, sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(../img/background.png), linear-gradient(to right, #EAE9EE, #EAE9EE);
     background-position: center, center;
-    background-repeat: repeat, no-repeat;
+    background-repeat: repeat, repeat;
     background-size: contain, cover;
 }
 /* main */
